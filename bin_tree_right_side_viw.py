@@ -7,7 +7,7 @@
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
-            return none
+            return None
         result, queue, temp = [root.val], [root], []
         while queue:
             for i in queue:
